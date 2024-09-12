@@ -20,7 +20,6 @@ a {
 a:hover {
     text-decoration: underline;
     color: orangered;
-    animation: fadeIn 0.5s;
 }
 
 p {
@@ -29,13 +28,4 @@ p {
 
 ol li {
   list-style-type: none;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
